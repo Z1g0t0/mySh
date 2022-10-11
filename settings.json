@@ -1,6 +1,7 @@
 {
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.acceptSuggestionOnEnter": "off",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.tabCompletion": "off",
     "editor.wordWrap": "on",
     "git.enabled": false,
@@ -110,7 +111,6 @@
                 "scope": [
                     "entity.name.function.preprocessor",
                     "entity.name.namespace",
-                    "entity.name.type",
                 ],
                 "settings": {
                     "foreground": "#ff0000",
@@ -267,9 +267,11 @@
                     "fontStyle": "italic",
                 },
             },
+
             {
                 "scope": [
                     "markup.bold",
+                    "entity.name.type",
                 ],
                 "settings": {
                     "foreground": "#ffff00",
