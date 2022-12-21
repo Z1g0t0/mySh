@@ -4,8 +4,9 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.tabCompletion": "off",
     "editor.wordWrap": "on",
-    "git.enabled": false,
-    "git.ignoreMissingGitWarning": true,
+    "git.enabled": true,
+    "git.decorations.enabled": false,
+    "gitlens.currentLine.scrollable": false,
     "glassit.alpha": 222,
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "vim.leader": " ", 
@@ -25,6 +26,7 @@
     "workbench.sideBar.location": "right",
 
     "workbench.colorCustomizations": {
+        "gitDecoration.modifiedResourceForeground": "#ff4800",
         "activityBar.activeBackground": "#400080",
         "activityBar.background": "#000000",
         "activityBar.border": "#00ff00",
