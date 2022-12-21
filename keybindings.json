@@ -1,17 +1,53 @@
 // Place your key bindings in this file to override the defaults
 [
+    // Disable tab suggestion completion
     {
     "key": "tab",
     "command": "-acceptSelectedSuggestion",
     },
-    {
-        "key": "ctrl+oem_102",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
-    },
+    // Disable " to toggle terminal
     {
         "key": "ctrl+oem_3",
         "command": "-workbench.action.terminal.toggleTerminal",
         "when": "terminal.active"
     },
+    // Toggle terminal with CTRL + \
+    {
+        "key": "ctrl+oem_102",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    // New terminal pane
+    {
+        "key": "alt+shift+oem_102",
+        "command": "workbench.action.terminal.newInActiveWorkspace",
+        "when": "terminalFocus"
+    },
+    // New terminal tab 
+    {
+        "key": "alt+oem_102",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    // Switch terminals with ALT + 'N'
+    {
+        "key": "alt+1",
+        "command": "workbench.action.terminal.focusAtIndex1",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+2",
+        "command": "workbench.action.terminal.focusAtIndex2",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+3",
+        "command": "workbench.action.terminal.focusAtIndex3",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+4",
+        "command": "workbench.action.terminal.focusAtIndex4",
+        "when": "terminalFocus"
+    }
 ]
